@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
             dialog.show(getSupportFragmentManager(), "City Details");
         });
 
-        // ✅ Delete on long press
+        // Delete on long press
         cityListView.setOnItemLongClickListener((adapterView, view, position, id) -> {
             City city = cityArrayAdapter.getItem(position);
             if (city != null) {
@@ -106,7 +106,6 @@ public class MainActivity extends AppCompatActivity
         city.setProvince(year);
         cityArrayAdapter.notifyDataSetChanged();
 
-        // If your lab later asks: implement Firestore update here.
     }
 
     @Override
