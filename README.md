@@ -3,7 +3,7 @@
 ## Student Details
 
 - **Full Name:** `Taufeeq Raji`
-- **CCID:** `taufeeqr>`
+- **CCID:** `taufeeqr`
 
 ## References and Resources
 
